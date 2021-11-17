@@ -71,6 +71,7 @@ Cost of carry model; Brenner and Kroner Model; Error correction model; Engle-Gra
 ### Models
 The thesis introduces five models to predict cash price. Two simple models involve only the lagged futures price, as shown in equations $(1)-(2)$. Brenner and Kroner suggested a more complexed model in 1995, as shown in equation $(3)$. Single equation models impose substantial restrictions on the data and so to assess the accuracy of these restrictions a vector error correction model is proposed, see equation $(4)$
 - OLS:  
+![](http://latex.codecogs.com/gif.latex?\\DP_t = a_0 + a_1 DF_{t|t-1} + e_t \tag{1})
 $$ DP_t = a_0 + a_1 DF_{t|t-1} + e_t \tag{1} $$
 $$ DP_t = b_0 + b_1 (F_{t|t-1} - P_{t-1}) + e_t \tag{2} $$
 - Brenner and Kroner Model(1995):  
