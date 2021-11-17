@@ -66,7 +66,7 @@ Cost of carry model; Brenner and Kroner Model; Error correction model; Engle-Gra
 - CU.xlsx: contains the data of SHFE copper 
   - in four levels: cash price, future price, inventory, interest rate of government bonds.
   - in the historical period of 2009/12/31 - 2020/07/03
-\newpage
+
 ### Models
 The thesis introduces five models to predict cash price. Two simple models involve only the lagged futures price, as shown in equations $(1)-(2)$. Brenner and Kroner suggested a more complexed model in 1995, as shown in equation $(3)$. Single equation models impose substantial restrictions on the data and so to assess the accuracy of these restrictions a vector error correction model is proposed, see equation $(4)$
 - OLS:  
