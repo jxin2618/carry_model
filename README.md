@@ -73,7 +73,7 @@ The thesis introduces five models to predict cash price. Two simple models invol
 $$ DP_t = a_0 + a_1 DF_{t|t-1} + e_t \tag{1} $$
 $$ DP_t = b_0 + b_1 (F_{t|t-1} - P_{t-1}) + e_t \tag{2} $$
 - Brenner and Kroner Model(1995):  
-$$ DP_t = g_0 + g_1 DF_{t|t-1} + g_2 Dr_{t|t-1} + g_3 DI_{t-1} + g_4 D\sigma_{t-1}+$$
+$$ DP_t = g_0 + g_1 DF_{t|t-1} + g_2 Dr_{t|t-1} + g_3 DI_{t-1} + g_4 D\sigma_{t-1} + \tag{} $$
 $$ g_5 D\rho (1)_{t-1} + g_6ECT_{t-2} + e_t \tag{3} $$
 
 The error correction term, $ECT_{t-2}$ is the residual, $e_{t-1}$ from the regression:
