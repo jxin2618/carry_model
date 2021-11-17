@@ -78,9 +78,7 @@ $$ DP_t = g_0 + g_1 DF_{t|t-1} + g_2 Dr_{t|t-1} + g_3 DI_{t-1} + g_4 D\sigma_{t-
 $$ g_5 D\rho(1)_{t-1} + g_6ECT_{t-2} + e_t \tag{3} $$
 
 The error correction term, $ECT_{t-2}$ is the residual, $e_{t-1}$ from the regression:
-$$ P_{t-1} = h_0 + h_1 F_{t-1|t-2} + h_2 r_{t-1|t-2} + h_3I_{t-2} + $$
-$$ h_4 \sigma_{t-2} + h_5\rho(1)_{t-2} + e_{t-1}  $$
-$$ h_4 a_{t-2} + h_5o(1)_{t-2} + e_{t-1}  $$
+$$ P_{t-1} = h_0 + h_1 F_{t-1|t-2} + h_2 r_{t-1|t-2} + h_3I_{t-2} +h_4 \sigma_{t-2} + h_5\rho(1)_{t-2} + e_{t-1} $$
 
 - Vector Error Correction Model:
 $$ DX_t =  M_1 DX_{t-1} + S^{'}ECT_{t-2}^{*} + L + E_t \tag{4} $$
