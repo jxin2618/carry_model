@@ -49,7 +49,7 @@ $$ P_{t-1} = h_0 + h_1 F_{t-1|t-2} + h_2 r_{t-1|t-2} + h_3I_{t-2} + h_4 \sigma_{
 - Vector Error Correction Model:
 $$ DX_t =  M_1 DX_{t-1} + S^{'}ECT_{t-2}^{*} + L + E_t \tag{4} $$
 
-$DX_t$ is the change in vector $X$, $M_1$ is the matrix of parameters, $S$ is the vector of speed of adjustment parameters, $L$ is a vector of constant terms and $E_t$ is the vector of residuals.$ECT^{*}_{t-2}$ are the residuals, $e_t$ from the following regression. 
+$DX_t$ is the change in vector $X$, $M_1$ is the matrix of parameters, $S$ is the vector of speed of adjustment parameters, $L$ is a vector of constant terms and $E_t$ is the vector of residuals.$ECT^{*}_{t-2}$ consists of the residuals, $e_t$ based the following regression. 
 
 $$ P_{t-2} = j_0 + j_1 F_{t-1|t-2} + j_2 r_{t-1|t-2} + j_3 I_{t-2} + j_4 \sigma_{t-2} + j_5\rho_{t-2} + e_{t-1} $$
 
