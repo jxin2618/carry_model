@@ -25,38 +25,6 @@ The thesis is a case study on the importance of the **cost of carry model** as w
       - [One Cointegrating Vector](#2-2-3-1)
       - [Three Cointegrating Vector](#2-2-3-2)
 - [3. Comparison of model prediction](#3)
-
-### Models
-
-
-### Keywords
-Cost of carry model; Vector error correction model; Engle-Grangle test; Johansen test
-### File
-- carry_model_1204.html: demonstrates thr research results
-### DataSet
-- CU.xlsx: contains the data of SHFE copper 
-  - in four levels: cash price, future price, inventory, interest rate of government bonds.
-  - in the historical period of 2009/12/31 - 2020/07/03
-## Project Research
-
-## Project Introduction
-
-### Table of Contents
-- [1. Data](#1)
-  - [1.1 Descriptive statistics](#1-1)
-  - [1.2 Graphs](#1-2)
-  - [1.3 Auto-Correlation coefficients](#1-3)
-- [2. Statistical Tests](#2)
-  - [2.1 Ordinary Least Square Regression](#2-1)
-    - [Augmented Dickey-Fuller unit root tests](#2-1-1)
-    - [**Results for OLS**](#2-1-2)
-  - [2.2 Error Correction Models](#2)
-    - [Engle Granger Test and Johansen Test](#2-2-1)
-    - [**Results for the B&K Regression Model**](#2-2-2)
-    - [**Results for the Vector Error Correction Model**](#2-2-3)
-      - [One Cointegrating Vector](#2-2-3-1)
-      - [Three Cointegrating Vector](#2-2-3-2)
-- [3. Comparison of model prediction](#3)
   
 ### Keywords
 Cost of carry model; Brenner and Kroner Model; Error correction model; Engle-Grangle test; Johansen test
