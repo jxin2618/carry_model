@@ -55,7 +55,19 @@ $$ P_{t-2} = j_0 + j_1 F_{t-1|t-2} + j_2 r_{t-1|t-2} + j_3 I_{t-2} + j_4 \sigma_
 
 with $i_i$ and $j_i$ as estimated parameters.
 
+Since the jonhansen test in the system indentifies **3 cointegrating vectors** at **5% significance level**, we considered the vector error correction model with one cointegrating vector and three cointegrating vector simultaneously. The simple one cointegrating vector model contrains the error correction term to the cost of carry relationship. This simple version provides a base case for comparison with the more complex three cointegrating vectors model.
+
 ## Research Results
-For details, see the file carry_model_1204.html
+The following picture shows the forecasting accuracy with regards to **the difference of the logarithm of cash prices**. The model used in this comparison include the two variable OLS models **(OLS-1 and OLS-2)**, the single equation of the Brenner and Kroner model**(B&K)** and two versions of the vector correction models, the first using one cointegrating vector obtained from the Engle-Granger test **(VECM-1CV)** and second using three cointegrating vectors obtained from the Johansen procedure **(VECM-3CV)**.  
+
+The forecast accuracy is measured in terms of mean error, mean absolute error and mean squared error. The error is defined as actual change in log cash price less the predicted change in log cash price.
+
+The vector error correction model with one cointegrating vector generally shows least bias, while the Brenner & Kroner model exhibits least mean absolute error and least mean squared error.
+
 ![image](https://github.com/jxin2618/carry_model/blob/main/figs/AB.png)
 ![image](https://github.com/jxin2618/carry_model/blob/main/figs/CD.png)
+
+For details, see the file carry_model_1204.html
+
+## Future Work
+The acvancement in measuring the cash prices can be applied to calibrate the basis rate factors.
