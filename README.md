@@ -29,7 +29,7 @@ The thesis is a case study on the importance of the **cost of carry model** as w
 ### Keywords
 Cost of carry model; Brenner and Kroner Model; Error correction model; Engle-Grangle test; Johansen test
 ### File
-- carry_model_1204.html: demonstrates thr research results
+- carry_model_1204.html: demonstrates the research results
 ### DataSet
 - CU.xlsx: contains the data of SHFE copper 
   - in four levels: cash price, future price, inventory, interest rate of government bonds.
