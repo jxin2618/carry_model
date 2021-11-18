@@ -54,3 +54,8 @@ $DX_t$ is the change in vector $X$, $M_1$ is the matrix of parameters, $S$ is th
 $$ P_{t-2} = j_0 + j_1 F_{t-1|t-2} + j_2 r_{t-1|t-2} + j_3 I_{t-2} + j_4 \sigma_{t-2} + j_5\rho_{t-2} + e_{t-1} $$
 
 with $i_i$ and $j_i$ as estimated parameters.
+
+## Research Results
+For details, see the file carry_model_1204.html
+![image](https://github.com/jxin2618/carry_model/blob/main/figs/AB.png)
+![image](https://github.com/jxin2618/carry_model/blob/main/figs/CD.png)
