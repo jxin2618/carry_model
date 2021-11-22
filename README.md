@@ -70,4 +70,4 @@ The vector error correction model with one cointegrating vector generally shows 
 For details, see the file carry_model_1204.html
 
 ## Future Work
-The acvancement in measuring the cash prices can be applied to calibrate the basis rate factors.
+The advancement in measuring the cash prices can be applied to calibrate the basis rate factors.
